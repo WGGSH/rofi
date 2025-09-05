@@ -9,7 +9,7 @@
     grey: #6e738d;
 
     width: 600;
-    font: "Moralerspace Neon NF 18";
+    font: "Moralerspace Neon 18";
 }
 
 element-text, element-icon , mode-switcher {
