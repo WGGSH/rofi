@@ -19,7 +19,7 @@ window {
     text-color:                     @FG;
     border:                  	    2px;
     border-color:                   @BGA;
-    border-radius:                  10px;
+    border-radius:                  50%;
     width:                          110px;
     x-offset:                       -1%;
     y-offset:                       0;
@@ -117,7 +117,7 @@ element-icon {
 element-text {
     background-color: 		        inherit;
     text-color:       		        inherit;
-    font:			                "Moralerspace Neon Regular 12";
+    font:			                "Moralerspace Neon Regular 22";
     expand:                         true;
     horizontal-align:               0.5;
     vertical-align:                 0.5;
@@ -128,7 +128,7 @@ element selected {
     background-color:               @BGA;
     text-color:                     @SEL;
     border:                  	    0px 0px 0px 0px;
-    border-radius:                  10px;
+    border-radius:                  50%;
     border-color:                   @BDR;
 }
 

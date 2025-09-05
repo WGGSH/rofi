@@ -3,14 +3,14 @@
 # Rofi power menu for Hyprland
 rofi_command="rofi -theme $HOME/.config/rofi/deathemonic/powermenu.rasi"
 
-uptime=$(uptime -p | sed -e 's/up //g')
+uptime=$(uptime | awk '{print $3,$4}' | sed 's/,//g')
 
-# Options with text
-shutdown="Shutdown"
-reboot="Restart" 
-lock="Lock"
-suspend="Sleep"
-logout="Logout"
+# Options with icons
+shutdown="⏻"
+reboot="⟲" 
+lock="⚿"
+suspend="⏾"
+logout="⇠"
 
 # Ask for confirmation
 rdialog () {
